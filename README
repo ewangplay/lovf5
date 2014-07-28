@@ -1,0 +1,22 @@
+lovf5——Follow5微博Linux桌面客户端
+
+1、运行环境：
+Linux/Gnome桌面环境
+
+
+2、安装配置perl运行环境
+（1）安装perl(>=5.8);
+（2）安装gtk2-perl扩展包；
+（3）安装FindBin扩展包；
+（4）安装Crypt::Blowfish扩展包；
+
+
+3、如何运行lovf5
+安装配置完上述步骤后，就可以运行lovf5了。
+设置主程序的运行属性：
+chmod +x lovf5.pl
+
+为了方便可以关联一个快捷方式：
+ln -s gCRT.pl lovf5
+
+如果你不喜欢从命令行启动，那就在你的桌面或者任务栏上配置一个快捷图标吧。
